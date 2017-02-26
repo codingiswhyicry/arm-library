@@ -1,9 +1,8 @@
-#include <kipr/botball.h>
 
 #ifndef ARM_LIBRARY_H
 #define ARM_LIBRARY_H
 
-void spinBase(int speed, int port);
+void spinBase(int speed, int port, int time);
 
 void move_mid_arm(int position, int port);
 
